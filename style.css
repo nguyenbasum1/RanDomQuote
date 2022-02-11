@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+body
+{
+    font-family: 'Festive', cursive;
+    background:#06bcc1;
+}
+.container
+{
+    border: 1px solid black;
+    width:95%;
+    height: 100vh;
+    display: flex;
+}
+.quotes
+{
+    border: 1px solid black;
+    width: 900px;
+    height: 450px;
+    margin-top:auto ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/*can giua doi voi top and botom*/
+    align-items: center;
+    color: chartreuse;
+    background-color: cornsilk;
+    border: 15px solid pink;
+}
+.quotes p,.quotes h3{
+    font-size: 36px;
+}
